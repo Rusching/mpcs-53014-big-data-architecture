@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+    <title>Company Stats Query</title>
+    <link type="text/css" rel="stylesheet" href="elegant-aero.css" />
+</head>
+<body style='background-image:URL("D1028_84_235_1200.jpg");background-repeat:no-repeat;background-position:center top;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size: 100%;'>
+<div style="text-align:center; margin-top:50px;">
+    <h1 style="color: #333; font-family: Arial, sans-serif;">Company Statistics</h1>
+    <form action="/company-stats" method="get" target="results_iframe" class="elegant-aero" style="width:400px; margin:0 auto; background:white; padding:20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.2); border-radius: 8px;">
+        <label>
+            <span style="font-weight:bold;">Company Name:</span>
+            <input type="text" name="company" placeholder="Enter Company Name" value="Taxi Affiliation Services" style="width:100%; padding:8px; margin-top:10px;" />
+        </label>
+        <label>
+            <span></span>
+            <input type="submit" value="Get Stats" style="margin-top:20px; padding:10px 20px; background:#4CAF50; color:white; border:none; border-radius:5px; cursor:pointer; font-size:16px;" />
+        </label>
+    </form>
+</div>
+<iframe frameBorder="0" name="results_iframe" style="width:80%; height:400px; display:block; margin:50px auto; border: 1px solid #ccc; border-radius: 8px;"></iframe>
+</body>
+</html>

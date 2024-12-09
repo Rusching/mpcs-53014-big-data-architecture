@@ -1,0 +1,15 @@
+create 'shichen_taxi_trips_by_id', 'trip_info’
+
+create 'shichen_taxi_trips_by_location', 'trip_info’
+
+create 'shichen_taxi_trips_by_pickup', 'trip_info’
+
+create 'shichen_taxi_trips_by_dropoff', 'trip_info’
+
+create 'shichen_taxi_trips_by_date', 'trip_info’
+
+create 'shichen_taxi_trips_by_company', 'trip_info’
+
+create 'shichen_taxi_trips_by_fare', 'trip_info’
+
+create 'shichen_taxi_trips_by_geo', 'trip_info’

@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+    <title>Company Stats Result</title>
+    <link type="text/css" rel="stylesheet" href="table.css" />
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f9f9f9;">
+    <div style="width:80%; margin:30px auto; background:white; padding:20px; box-shadow: 5px 5px 10px rgba(0,0,0,0.2); border-radius: 8px;">
+        <h2 style="text-align:center; color: #333;">Statistics for {{company}}</h2>
+        <table class="CSS_Table_Example" style="width:100%; border-collapse: collapse; margin:20px auto;">
+            <thead>
+                <tr style="background:#4CAF50; color:white;">
+                    <th style="padding:10px; border:1px solid #ddd;">Metric</th>
+                    <th style="padding:10px; border:1px solid #ddd;">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding:10px; border:1px solid #ddd;">Total Trips</td>
+                    <td style="padding:10px; border:1px solid #ddd;">{{tripCount}}</td>
+                </tr>
+                <tr>
+                    <td style="padding:10px; border:1px solid #ddd;">Total Fare</td>
+                    <td style="padding:10px; border:1px solid #ddd;">${{totalFare}}</td>
+                </tr>
+                <tr>
+                    <td style="padding:10px; border:1px solid #ddd;">Total Trip Seconds</td>
+                    <td style="padding:10px; border:1px solid #ddd;">{{totalTripSeconds}}</td>
+                </tr>
+                <tr>
+                    <td style="padding:10px; border:1px solid #ddd;">Average Fare</td>
+                    <td style="padding:10px; border:1px solid #ddd;">${{averageFare}}</td>
+                </tr>
+                <tr>
+                    <td style="padding:10px; border:1px solid #ddd;">Average Trip Time (Seconds)</td>
+                    <td style="padding:10px; border:1px solid #ddd;">{{averageTripSeconds}}</td>
+                </tr>
+                <tr>
+                    <td style="padding:10px; border:1px solid #ddd;">Top Pickup Area</td>
+                    <td style="padding:10px; border:1px solid #ddd;">{{topPickupArea}}</td>
+                </tr>
+                <tr>
+                    <td style="padding:10px; border:1px solid #ddd;">Top Dropoff Area</td>
+                    <td style="padding:10px; border:1px solid #ddd;">{{topDropoffArea}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
